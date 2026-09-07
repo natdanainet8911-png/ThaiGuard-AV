@@ -15,7 +15,7 @@ def main():
     app.setOrganizationName("Tools Development Project")
 
     try:
-        from ui.mainwindow import MainWindow import MainWindow
+        from ui.mainwindow import MainWindow
         win = MainWindow()
         win.show()
     except Exception as e:
