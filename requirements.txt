@@ -1,0 +1,7 @@
+PyQt6>=6.6.0
+
+# --- Optional แต่แนะนำอย่างยิ่ง ---
+yara-python>=4.5.0      # ถ้าติดตั้งไม่ได้ ใช้ yara-x แทน
+pefile>=2023.2.7        # วิเคราะห์ไฟล์ .exe (PE header)
+watchdog>=4.0.0         # Real-time folder monitoring
+requests>=2.31.0        # VirusTotal API (ถ้าจะต่อยอด)
