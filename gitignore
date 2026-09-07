@@ -1,0 +1,38 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# ===== PyInstaller =====
+build/
+dist/
+*.manifest
+# หมายเหตุ: ไม่ ignore *.spec เพราะเราต้องการเก็บ ThaiGuardAV.spec ไว้ใน repo
+
+# ===== ข้อมูลระหว่างใช้งาน — ห้ามขึ้น GitHub เด็ดขาด! =====
+data/
+*.db
+*.db-wal
+*.db-shm
+quarantine/
+logs/
+*.log
+
+# ===== ไฟล์ทดสอบ =====
+testfiles/
+*.tgq
+samples/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
