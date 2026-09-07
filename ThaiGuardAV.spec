@@ -64,6 +64,6 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     icon="assets/icon.ico",    # ไม่มีไอคอนให้ลบบรรทัดนี้
-    version="version_info.txt",
+    version="versioninfo.txt",
     uac_admin=False,           # True = ขอสิทธิ์ Admin ทุกครั้ง (ยังไม่จำเป็น)
 )
